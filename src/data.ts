@@ -27,7 +27,7 @@ export const ROLE_BASE: Record<Role, { hp: number; atk: number; def: number; spd
 };
 
 const ELEMENT_COLOR: Record<string, string> = {
-  물: '#7fd3ff', 번개: '#ffd84d', 바람: '#c9f0ff', 음파: '#ffbf3f', 불: '#ff8a3d', 무속: '#ff6a9a',
+  물: '#7fd3ff', 번개: '#ffd84d', 바람: '#c9f0ff', 음파: '#ffbf3f', 불: '#ff8a3d', 무속: '#ff6a9a', 혈: '#ff4d6d', 성: '#8dffb0',
 };
 
 function parseCsv(text: string): Record<string, string>[] {
